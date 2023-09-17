@@ -93,6 +93,11 @@ namespace unp
             start();
         }
 
+        void close()
+        {
+            ::close(fd_);
+        }
+
         void open_socket(int fd) noexcept
         {
             fd_ = fd;

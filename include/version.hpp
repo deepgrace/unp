@@ -20,7 +20,7 @@
  *   time a set of code changes is merged to the master branch.
  */
 
-#define UNP_VERSION_NUMBER 1
+#define UNP_VERSION_NUMBER 2
 #define UNP_VERSION_STRING "unp/" UNP_STRINGIZE(UNP_VERSION_NUMBER)
 
 #endif
